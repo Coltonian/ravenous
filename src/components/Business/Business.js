@@ -18,7 +18,7 @@ class Business extends React.Component {
         return (
             <div className="Business">
                 <div className="image-container">
-                    <img src={business.imageSrcimageSrc} alt=''/>
+                    <img src={business.imageSrc} alt=''/>
                 </div>
                 <h2>{business.name}</h2>
                 <div className="Business-information">
@@ -36,3 +36,5 @@ class Business extends React.Component {
             </div> )
     }
 };
+
+export default Business;
