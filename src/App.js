@@ -9,8 +9,12 @@ class App extends Component {
       <h1>ravenous</h1>
       <SearchBar />
       <BusinessList />
-  </div>
+    </div>
   }
 }
 
 export default App;
+
+
+
+
